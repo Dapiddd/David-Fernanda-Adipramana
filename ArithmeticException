@@ -1,0 +1,9 @@
+public class Example {
+    public static void main(String[] args) {
+        try {
+            int result = 5 / 0;
+        } catch (ArithmeticException e) {
+            System.out.println("Error: Pembagian oleh nol tidak diizinkan.");
+        }
+    }
+}
