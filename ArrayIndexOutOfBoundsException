@@ -1,0 +1,10 @@
+public class Example {
+    public static void main(String[] args) {
+        int[] myArray = {1, 2, 3};
+        try {
+            int value = myArray[5];
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Error: Indeks diluar jangkauan.");
+        }
+    }
+}
